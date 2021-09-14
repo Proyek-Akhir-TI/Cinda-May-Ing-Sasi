@@ -1,0 +1,202 @@
+/* .jumbotron {
+    padding: 2rem 1rem;
+    background-color: rgb(99, 140, 218);
+    height: 500px;
+} */
+
+.jumbotron {
+    height: 500px;
+    /* background-image: url("https://i.ibb.co/m5ZfSYr/Cinda-2.png"); */
+    background-image: url("https://i.ibb.co/zHKm73z/Cinda-1.png");
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: 0 -100px;
+    color: #eaeaea;
+    overflow: hidden;
+}
+
+.jumbotron .display-4 {
+    margin-top: 70px;
+    padding-right: 100px;
+    text-indent: 300px;
+    font-weight: bold;
+    color: black;
+}
+
+.jumbotron .display-1 {
+    margin-top: 5px;
+    padding: auto;
+    font-weight: bold;
+    font-size: 30px;
+    color: black;
+}
+
+.jumbotron .display-2 {
+    margin-top: 5px;
+    padding: auto;
+    font-weight: bold;
+    font-size: 30px;
+    color: black;
+}
+
+.jumbotron h3 {
+    padding-right: 100px;
+    font-size: 25px;
+    font-weight: thin;
+    color: black;
+}
+
+/* .jumbotron {
+    background-image: url("https://i.ibb.co/5Y8ByQy/Cinda-3.png");
+    height:500px;
+} */
+
+/* kotak kotak 1 */
+div {
+    display: inline;
+}
+
+.satu {
+    float: left;
+    width: 250px;
+    height: 250px;
+    background-color: skyblue;
+    margin-left: 400px;
+    margin-top: -125px;
+    margin-bottom: 0px;
+    padding: 20px 20px 20px 20px;
+    font-size: 19px;
+    text-align: center;
+    font-family: Georgia, "Times New Roman", Times, serif;
+    color: black;
+}
+
+.dua {
+    float: right;
+    width: 250px;
+    height: 250px;
+    background-color: cornflowerblue;
+    margin-left: 100px;
+    margin-right: 400px;
+    margin-top: -250px;
+    margin-bottom: 0px;
+    padding: 20px 20px 20px 20px;
+    font-size: 35px;
+    text-align: center;
+    font-weight: bold;
+    color: white;
+}
+
+.btn-light {
+    background-color: rgba(28, 98, 168, 0.7);
+    margin-top: 70px;
+    margin-left: 95px;
+    color: white;
+    font-size: 15px;
+    font-weight: bold;
+    width: 10%;
+}
+
+.btn-light:hover {
+    background-color: rgba(28, 98, 168, 1);
+    margin-top: 70px;
+    margin-left: 95px;
+    color: white;
+    font-size: 15px;
+    font-weight: bold;
+    width: 10%;
+}
+
+/* .container1 {
+    width: 1000px;
+    margin: auto;
+    padding: 5px;
+} */
+
+/* div {
+    display: inline;
+} */
+
+/* halaman layanan */
+
+/* .w3-container {
+    margin-top: 30px;
+    margin-bottom: 20px;
+}*/
+
+/* .box {
+    width: 200px;
+    height: 200px;
+    padding: 30px;
+    background-color: rgb(60, 138, 187);
+    margin: 20px 20px 20px 70px;
+    text-align: center;
+} */
+/* akhir button layanan */
+
+div {
+    display: inline;
+}
+
+.form-login {
+    width: 30%;
+    margin: auto;
+    margin-top: 5%;
+    box-shadow: 0 3px 20px rgba(0, 0, 0, 0.3);
+    padding: 40px;
+}
+
+.btn-primary {
+    margin-top: 20px;
+    margin-bottom: 5px;
+    margin-left: 110px;
+    width: 30%;
+}
+
+.form-daftar {
+    width: 30%;
+    margin-left: 35%;
+    box-shadow: 0 3px 20px rgba(0, 0, 0, 0.3);
+    padding: 30px;
+}
+
+.container .form-loginPlg {
+    width: 50%;
+    margin-top: 5%;
+    box-shadow: 0 3px 20px rgba(0, 0, 0, 0.3);
+    padding: 30px;
+}
+
+.form-formulir {
+    width: 70%;
+    margin-top: 5%;
+    margin-left: 30%;
+    box-shadow: 0 3px 20px rgba(0, 0, 0, 0.3);
+    padding: 20px;
+}
+
+div {
+    display: inline;
+}
+
+.container .form-formulir1 {
+    width: 70%;
+    margin-top: 5%;
+    margin-left: 30%;
+    box-shadow: 0 3px 20px rgba(0, 0, 0, 0.3);
+    padding: 10px;
+}
+
+.btn-secondary {
+    margin-top: 20px;
+    margin-bottom: 5px;
+    margin-left: 110px;
+    width: 30%;
+}
+
+.jumbotron .progress {
+    margin-top: 50px;
+    margin-bottom: 5px;
+    margin-left: 10%;
+    width: 80%;
+}

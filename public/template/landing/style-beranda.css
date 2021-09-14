@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+section {
+    position: relative;
+    width: 100%;
+    min-height: 100vh;
+    padding: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-image: url("https://i.ibb.co/zHKm73z/Cinda-1.png");
+    background-size: cover;
+}
+
+header {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgba(95, 95, 95, 0.521);
+}
+
+header .logo {
+    position: relative;
+    right: 0.5px;
+}
+
+header ul {
+    position: relative;
+    display: flex;
+    font-weight: 400px;
+}
+
+header ul li {
+    list-style: none;
+
+}
+
+header ul li a {
+    display: inline-block;
+    color: rgb(255, 255, 255);
+    margin-left: 40px;
+    text-decoration: none;
+    font-weight: bolder;
+}
+
+header ul li a:hover {
+    color: black;
+}
+
+.content {
+    position: relative;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.content .textbox {
+    position: relative;
+    max-width: 600px;
+    font-weight: 500px;
+}
+
+.content .textbox h2 {
+    color: black;
+    font-size: 4em;
+    line-height: 1.1em;
+    font-weight: 500px;
+}
+
+.content .textbox h3 {
+    color: black;
+    margin-top: 15px;
+    font-weight: 500px;
+    font-size: 30px;
+}
+
+.content .textbox a {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 5px 20px;
+    background: #5483e7;
+    color: black;
+    text-decoration: none;
+    border-radius: 5px;
+    letter-spacing: 1px;
+    font-size: 19px;
+    font-weight: bolder;
+}
